@@ -1,0 +1,27 @@
+{
+  "name": "skill-master-10000-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andrewdacenko/skill-master-10000-server.git",
+  "author": "Andrew Dacenko <a.s.dvornik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node -- index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "body-parser": "^1.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "graphql": "^0.11.3",
+    "graphql-tools": "^1.2.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.11",
+    "nodemon": "^1.12.0",
+    "optics-agent": "^1.1.6"
+  }
+}
