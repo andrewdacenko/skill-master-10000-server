@@ -1,3 +1,4 @@
-import run from './api/server';
+import './env';
+import run from './src/server';
 
 run(process.env);
